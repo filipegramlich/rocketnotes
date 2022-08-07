@@ -9,11 +9,15 @@ import { Section } from "../components/Section"
 import { Links } from "../components/Section/styles"
 
 import { Tags } from "../components/Tags"
+
+import { ButtonText } from "../components/ButtonText"
+
 export function Details(){
 
   return(
     <Container>
       <Header/>
+      <ButtonText title="Excluir Nota"/>
       <Section title="Links Úteis">
         <Links>
           <li><a href="#">https://www.rocketseat.com.br/</a></li>
