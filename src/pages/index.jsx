@@ -8,6 +8,7 @@ import { Section } from "../components/Section"
 
 import { Links } from "../components/Section/styles"
 
+import { Tags } from "../components/Tags"
 export function Details(){
 
   return(
@@ -20,7 +21,10 @@ export function Details(){
         </Links>
       </Section>
       <Section title="Marcadores">
-        
+
+        <Tags title="ReactJs"/>
+        <Tags title="NodeJs"/>
+          
       </Section>
       <Button text = "Voltar"/>      
     </Container>
