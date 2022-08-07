@@ -9,7 +9,4 @@ export const Container = styled.span`
     background-color: ${({theme})=>theme.COLORS.ORANGE};
 
 
-
-
-
 `
