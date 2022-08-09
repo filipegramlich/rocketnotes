@@ -46,5 +46,5 @@ export const Content = styled.div`
         margin-top: 16px;
         text-align: justify;
     }
-`
+`;
 

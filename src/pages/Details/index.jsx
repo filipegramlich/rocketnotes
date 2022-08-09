@@ -1,20 +1,19 @@
-import { Header } from "../components/Header"
+import { Header } from "../components/Header";
 
-import { Button } from "../components/Button"
+import { Button } from "../components/Button";
 
-import { Container, Content } from "./styles"
+import { Container, Content } from "./styles";
 
-import { Section } from "../components/Section"
+import { Section } from "../components/Section";
 
-import { Links } from "../components/Section/styles"
+import { Links } from "../components/Section/styles";
 
-import { Tags } from "../components/Tags"
+import { Tags } from "../components/Tags";
 
-import { ButtonText } from "../components/ButtonText"
+import { ButtonText } from "../components/ButtonText";
 
 export function Details(){
-
-  return(
+  return (
     <Container>
       <Header/>
         <main>
@@ -43,4 +42,4 @@ export function Details(){
     </Container>
   )
 
-}
+};
