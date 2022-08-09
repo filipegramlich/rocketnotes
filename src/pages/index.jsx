@@ -20,7 +20,7 @@ export function Details(){
         <main>
           <Content>
           
-          <ButtonText type="button" title="Excluir Nota"/>
+          <ButtonText title="Excluir Nota"/>
 
           <h1>Introdução ao React</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iusto ipsa accusantium sequi magni quasi, rem ab veniam eaque veritatis. Obcaecati illum eaque fuga quas sequi sunt nihil ipsam officiis Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas voluptate vel cupiditate. Veritatis dolorem, assumenda labore perspiciatis officia debitis esse, mollitia accusantium incidunt, eaque eveniet pariatur aliquam inventore temporibus rem!</p>
