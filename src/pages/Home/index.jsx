@@ -2,6 +2,9 @@ import { Container, Brand, Menu, Search, Content, Newnote} from "./styles"
 
 import { Header } from "../../components/Header";
 
+import { ButtonText } from "../../components/ButtonText";
+
+
 export function Home() {
     return(
         <Container>
@@ -12,7 +15,15 @@ export function Home() {
             <Header/>
 
             <Menu>
-
+                <li>
+                    <ButtonText title="Todos"/>
+                </li>
+                <li>
+                    <ButtonText title="ReactJs"/>
+                </li>
+                <li>
+                    <ButtonText title="NodeJs"/>
+                </li>
             </Menu>
 
             <Search>

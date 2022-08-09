@@ -11,7 +11,7 @@ export const Container = styled.div`
     "brand header"
     "menu search"
     "menu content"
-   " newnote content";
+    "newnote content";
 
     background: ${({theme})=>theme.COLORS.BACKGROUND_800};
 `;            
@@ -27,16 +27,22 @@ export const Brand = styled.div`
     border-bottom-style: solid;
     border-bottom-color: ${({theme})=>theme.COLORS.BACKGROUND_700};
     background-color: ${({theme})=>theme.COLORS.BACKGROUND_700};
-
+    
     >h1{
         font-size: 24px;
         color: ${({theme})=>theme.COLORS.ORANGE};
     }
-`;    
+    `;    
 
 export const Menu = styled.ul`
     grid-area: menu;
-`;        
+    
+    padding-top: 64px;
+    text-align: center;
+
+    background-color: ${({theme})=>theme.COLORS.BACKGROUND_700};
+    `;        
+    
 export const Search = styled.div`
     grid-area: search;
 `;        
