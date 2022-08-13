@@ -26,7 +26,7 @@ export const Brand = styled.div`
     border-bottom-width:1px ;
     border-bottom-style: solid;
     border-bottom-color: ${({theme})=>theme.COLORS.BACKGROUND_700};
-    background-color: ${({theme})=>theme.COLORS.BACKGROUND_700};
+    background-color: ${({theme})=>theme.COLORS.BACKGROUND_900};
     
     >h1{
         font-size: 24px;
@@ -40,17 +40,24 @@ export const Menu = styled.ul`
     padding-top: 64px;
     text-align: center;
 
-    background-color: ${({theme})=>theme.COLORS.BACKGROUND_700};
+    background-color: ${({theme})=>theme.COLORS.BACKGROUND_900};
+
+    >li{
+        margin-bottom: 24px;
+    }
     `;        
     
 export const Search = styled.div`
     grid-area: search;
-
     padding: 64px 64px 0;
-`;        
+    `;        
+
 export const Content = styled.div`
     grid-area: content;
+    padding: 0 64px;
+    overflow-y: auto;
 `;        
+
 export const Newnote = styled.button`
     grid-area: newnote;
 
