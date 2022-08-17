@@ -1,4 +1,4 @@
-import { Header } from "../components/Header";
+import { Header } from "../../components/Header";
 
 import { Button } from "../components/Button";
 
@@ -12,7 +12,7 @@ import { Tags } from "../components/Tags";
 
 import { ButtonText } from "../components/ButtonText";
 
-export function Details(){
+export function Details (){
   return (
     <Container>
       <Header/>

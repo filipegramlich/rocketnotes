@@ -15,7 +15,7 @@ export const Container = styled.header`
     justify-content: space-between;
 
     padding: 0 80px;
-`
+`;
 export const Profile = styled.div`
 
     display: flex;
@@ -60,4 +60,4 @@ export const Logout = styled.button`
         font-size: 36px;
     }
 
-`
+`;
