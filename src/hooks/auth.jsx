@@ -1,6 +1,6 @@
-import { createContext, useContext, useState, useEffect } from 'react'
+import { createContext, useContext, useEffect, useState } from 'react';
 
-import { api } from '../services/api'
+import { api } from '../services/api';
 
 const AuthContext = createContext({});
 
@@ -31,6 +31,13 @@ export function AuthProvider({ children }) {
         }
     }
 
+    function signOut(){
+        localStorage.removeItem('@rocketnotes:token');
+        localStorage.removeItem('@rocketnotes:user');
+
+        setData({})
+    }
+
     useEffect(() => {
         const token = localStorage.getItem('@rocketnotes:token');
         const user = localStorage.getItem('@rocketnotes:user');
@@ -40,7 +47,7 @@ export function AuthProvider({ children }) {
     }, [])
 
     return (
-        <AuthContext.Provider value={{ signIn, user: data.user }}>
+        <AuthContext.Provider value={{ signIn, user: data.user, signOut }}>
             {children}
         </AuthContext.Provider>
     )
